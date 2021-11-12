@@ -1,5 +1,5 @@
 {
-   "solidity.packageDefaultDependenciesDirectory": "packages/hardhat-ts/node_modules",
+   "solidity.packageDefaultDependenciesDirectory": "packages/hardhat/node_modules",
    "solidity-va.test.defaultUnittestTemplate": "hardhat",
    "files.exclude": {
       "**/.git": true,
@@ -31,5 +31,8 @@
    "search.exclude": {
       "**/yarn-error.log": true,
       "**/yarn.lock": true
-   }
+   },
+   "solidity.defaultCompiler": "localNodeModule",
+   "solidity.nodemodulespackage": "../packages/hardhat/node_modules/solc",
+   "solidity.compileUsingRemoteVersion": "v0.6.7+commit.b8d736ae",
 }
