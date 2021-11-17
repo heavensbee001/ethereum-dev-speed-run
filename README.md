@@ -59,8 +59,8 @@ const result = await yourToken.transfer( "**YOUR FRONTEND ADDRESS**", ethers.uti
 
 #### 🥅 Goals
 
-- [ ] Can you check the `balanceOf()` your frontend address in the **YourContract** of the `Debug Contracts` tab?
-- [ ] Can you `transfer()` your token to another account and check *that* account's `balanceOf`?
+- [x] Can you check the `balanceOf()` your frontend address in the **YourContract** of the `Debug Contracts` tab?
+- [x] Can you `transfer()` your token to another account and check *that* account's `balanceOf`?
 
 (Use an incognito window to create a new address and try sending to that new address. Use the `transfer()` function in the `Debug Contracts` tab.)
 
