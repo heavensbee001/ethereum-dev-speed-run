@@ -93,13 +93,13 @@ await vendor.transferOwnership("**YOUR FRONTEND ADDRESS**");
 (You will use the `YourToken` UI tab and the frontend for most of your testing. Most of the UI is already built for you for this challenge.)
 
 #### 🥅 Goals
-- [ ] Does the `Vendor` address start with a `balanceOf` **1000** in `YourToken` on the `Debug Contracts` tab?
-- [ ] Can you buy **10** tokens for **0.01** ETH?
-- [ ] Can you transfer tokens to a different account?
-- [ ] Can the `owner` withdraw the ETH from the `Vendor`?
+- [x] Does the `Vendor` address start with a `balanceOf` **1000** in `YourToken` on the `Debug Contracts` tab?
+- [x] Can you buy **10** tokens for **0.01** ETH?
+- [x] Can you transfer tokens to a different account?
+- [x] Can the `owner` withdraw the ETH from the `Vendor`?
 
 #### ⚔️ Side Quests
-- [ ] Can *anyone* withdraw? Test *everything*!
+- [x] Can *anyone* withdraw? Test *everything*!
 - [ ] What if you minted **2000** and only sent **1000** to the `Vendor`?
 
 

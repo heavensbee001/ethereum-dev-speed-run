@@ -69,7 +69,7 @@ This deploy script is no longer in use, but is left for reference purposes!
     chalk.blue("packages/hardhat/artifacts/"),
     "\n\n"
   );
-};
+// };
 
 const deploy = async (
   contractName,
